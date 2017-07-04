@@ -7,7 +7,8 @@ const type = thinky.type
 var Post = thinky.createModel("Post", {
   id: String,
   title: String,
-  content: String
+  content: String,
+  idAuthor: String
 });
 
 //Author model
@@ -16,6 +17,8 @@ var Author = thinky.createModel("Author", {
     name: String,
     email: String
 })
+
+Post.belongsTo(Author, "author", "idAuthor", "id");
 
 module.exports = {
     Post, Author

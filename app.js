@@ -10,7 +10,8 @@ const routes = require('./routes')
 app.use(bodyParser())
 
 // app.use(async(ctx, next) => {
-//     return next()
+   
+   
 // })
 
 app.use(routes)
