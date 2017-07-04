@@ -24,7 +24,6 @@ router.post('/posts', async(ctx, next) => {
     noAuthorName = ctx.request.body.author.name === undefined
     noAuthorEmail = ctx.request.body.author.email === undefined
   }
-  
     
   if (isEmpty) {
     ctx.body = "no body"
