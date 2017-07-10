@@ -1,11 +1,7 @@
 const Router = require('koa-router')
 const router = new Router()
 
-const { Post, Author } = require('./models')
-
-router.get('/', async(ctx, next) => {
-  ctx.body = 'Homepage'
-})
+const { Post, Author, User } = require('./models')
 
 //POST
 router.post('/posts', async(ctx, next) => {
@@ -53,6 +49,8 @@ router.post('/posts', async(ctx, next) => {
   }
 })
 
+
+
 //GET
 router.get('/posts', async(ctx, next) => {
   let posts = await Post.orderBy('title').getJoin().run()
@@ -62,6 +60,11 @@ router.get('/posts', async(ctx, next) => {
 router.get('/authors', async(ctx, next) => {
   let authors = await Author.run()
   ctx.body = authors
+})
+
+router.get('/users', async(ctx, next) => {
+  let users = await User.orderBy('title').run()
+  ctx.body = users
 })
 
 router.get('/posts/:id', async(ctx, next) => {
@@ -100,4 +103,51 @@ router.del('/author/:id', async(ctx, next) =>{
   ctx.body = 'The author was deleted'
 })
 
+
+//USERS AND LOGIN
+router.post('/users', async(ctx, next) => {
+  let user = new User(ctx.request.body)
+  let result = await user.saveAll()
+  ctx.body = result
+})
+
+router.get('/login', async(ctx, next) => {
+  ctx.body = "login page"
+})
+
+//LOGIN
+router.post('/login', async(ctx, next) => {
+  //login keys
+  let email =  ctx.request.body.email 
+  let password =  ctx.request.body.password 
+
+  //find user by email
+  let user = await User.filter({email: email}).run()
+
+  //declare variables to check if email matches user and user/password matches
+  let emailMatch 
+  let passwordMatch
+
+  if (user.length) {
+    passwordMatch = user[0].password === password
+    emailMatch = true
+  }
+
+  var activeUser = user
+  console.log(activeUser)
+  
+  //responses
+  if (emailMatch && passwordMatch) {
+    ctx.body = 'login successful!'
+    return
+  } else if (!emailMatch && passwordMatch || emailMatch && !passwordMatch) {
+    ctx.body = 'incorrect password'
+    return
+  } else {  
+    ctx.body = 'incorrect email' 
+    return
+  }
+})
+
+//Export routes
 module.exports = router.routes()

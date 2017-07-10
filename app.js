@@ -7,12 +7,9 @@ const bodyParser = require('koa-bodyparser')
 
 const routes = require('./routes')
 
-app.use(bodyParser())
+const passport = require('passport')
 
-// app.use(async(ctx, next) => {
-   
-   
-// })
+app.use(bodyParser())
 
 app.use(routes)
 app.listen(3000)

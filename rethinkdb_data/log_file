@@ -1,0 +1,29 @@
+2017-07-10T10:47:51.832208000 20.022816s notice: Recursively removing directory /Users/ananeto/exercises/koa_testing/rethinkdb_data/tmp
+2017-07-10T10:47:51.835770000 20.026384s notice: Initializing directory /Users/ananeto/exercises/koa_testing/rethinkdb_data
+2017-07-10T10:47:51.835906000 20.026513s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/ananeto/exercises/koa_testing/rethinkdb_data' did not already exist or is empty.)
+2017-07-10T10:47:51.835936000 20.026543s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-07-10T10:47:51.842435000 20.033043s notice: Running on Darwin 16.6.0 x86_64
+2017-07-10T10:47:51.842488000 20.033095s notice: Loading data from directory /Users/ananeto/exercises/koa_testing/rethinkdb_data
+2017-07-10T10:47:51.959497000 20.150104s info: Automatically using cache size of 5335 MB
+2017-07-10T10:47:51.960168000 20.150775s notice: Listening for intracluster connections on port 29015
+2017-07-10T10:47:51.962404000 20.153011s notice: Listening for client driver connections on port 28015
+2017-07-10T10:47:51.962543000 20.153151s notice: Listening for administrative HTTP connections on port 8080
+2017-07-10T10:47:51.962549000 20.153156s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-07-10T10:47:51.962554000 20.153160s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-07-10T10:47:51.962555000 20.153162s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-07-10T10:47:51.962559000 20.153166s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-10T10:47:51.962563000 20.153170s notice: Server ready, "MacBook_Pro_local_6fa" 85c8734b-ec01-4d84-931d-d1924e011d24
+2017-07-10T10:47:59.729443000 27.919775s info: Table 197d9c35-6176-4cac-8036-9c02b1ec1410: Starting a new Raft election for term 1.
+2017-07-10T10:47:59.729662000 27.919995s info: Table 197d9c35-6176-4cac-8036-9c02b1ec1410: Added replica on this server.
+2017-07-10T10:47:59.741552000 27.931885s info: Table a07e6862-93cc-4426-88dd-fba7a8e807e1: Starting a new Raft election for term 1.
+2017-07-10T10:47:59.741821000 27.932153s info: Table a07e6862-93cc-4426-88dd-fba7a8e807e1: Added replica on this server.
+2017-07-10T10:47:59.751817000 27.942150s info: Table 688f35ce-1029-4d87-937a-6b705cec665c: Starting a new Raft election for term 1.
+2017-07-10T10:47:59.752211000 27.942543s info: Table 688f35ce-1029-4d87-937a-6b705cec665c: Added replica on this server.
+2017-07-10T10:47:59.774584000 27.964917s info: Table 197d9c35-6176-4cac-8036-9c02b1ec1410: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-10T10:47:59.774736000 27.965068s info: Table a07e6862-93cc-4426-88dd-fba7a8e807e1: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-10T10:47:59.788151000 27.978483s info: Table 688f35ce-1029-4d87-937a-6b705cec665c: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-10T11:17:02.173114000 1770.305478s notice: Removing file /Users/ananeto/exercises/koa_testing/rethinkdb_data/a07e6862-93cc-4426-88dd-fba7a8e807e1
+2017-07-10T11:17:02.173123000 1770.305487s info: Table a07e6862-93cc-4426-88dd-fba7a8e807e1: Deleted the table.
+2017-07-10T11:17:53.897243000 1822.027844s info: Table 5ccfd846-2ace-4fcf-a508-0b16f84abd8d: Starting a new Raft election for term 1.
+2017-07-10T11:17:53.897568000 1822.028169s info: Table 5ccfd846-2ace-4fcf-a508-0b16f84abd8d: Added replica on this server.
+2017-07-10T11:17:53.922132000 1822.052732s info: Table 5ccfd846-2ace-4fcf-a508-0b16f84abd8d: This server is Raft leader for term 1. Latest log index is 0.
