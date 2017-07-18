@@ -27,3 +27,26 @@
 2017-07-10T11:17:53.897243000 1822.027844s info: Table 5ccfd846-2ace-4fcf-a508-0b16f84abd8d: Starting a new Raft election for term 1.
 2017-07-10T11:17:53.897568000 1822.028169s info: Table 5ccfd846-2ace-4fcf-a508-0b16f84abd8d: Added replica on this server.
 2017-07-10T11:17:53.922132000 1822.052732s info: Table 5ccfd846-2ace-4fcf-a508-0b16f84abd8d: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-10T15:19:39.777732000 12799.153539s notice: Removing file /Users/ananeto/exercises/koa_testing/rethinkdb_data/5ccfd846-2ace-4fcf-a508-0b16f84abd8d
+2017-07-10T15:19:39.777740000 12799.153547s info: Table 5ccfd846-2ace-4fcf-a508-0b16f84abd8d: Deleted the table.
+2017-07-10T15:20:23.161566000 12842.535718s info: Table 2b6c50cc-ed47-4262-b418-c51f9ce3da69: Starting a new Raft election for term 1.
+2017-07-10T15:20:23.161730000 12842.535882s info: Table 2b6c50cc-ed47-4262-b418-c51f9ce3da69: Added replica on this server.
+2017-07-10T15:20:23.186493000 12842.560645s info: Table 2b6c50cc-ed47-4262-b418-c51f9ce3da69: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-10T16:34:45.282411000 17304.491281s info: Table 94446aac-6101-44c3-99db-afe754cceea3: Starting a new Raft election for term 1.
+2017-07-10T16:34:45.282714000 17304.491584s info: Table 94446aac-6101-44c3-99db-afe754cceea3: Added replica on this server.
+2017-07-10T16:34:45.304178000 17304.513048s info: Table 94446aac-6101-44c3-99db-afe754cceea3: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-11T14:27:51.871996000 32966.889307s notice: Removing file /Users/ananeto/exercises/koa_testing/rethinkdb_data/2b6c50cc-ed47-4262-b418-c51f9ce3da69
+2017-07-11T14:27:51.872007000 32966.889314s info: Table 2b6c50cc-ed47-4262-b418-c51f9ce3da69: Deleted the table.
+2017-07-11T14:27:51.905580000 32966.922887s notice: Removing file /Users/ananeto/exercises/koa_testing/rethinkdb_data/94446aac-6101-44c3-99db-afe754cceea3
+2017-07-11T14:27:51.905588000 32966.922895s info: Table 94446aac-6101-44c3-99db-afe754cceea3: Deleted the table.
+2017-07-11T14:28:05.130115000 32980.146984s info: Table 7ad98105-ef2d-49d7-8a99-3ad1b07bd643: Starting a new Raft election for term 1.
+2017-07-11T14:28:05.130358000 32980.147228s info: Table 7ad98105-ef2d-49d7-8a99-3ad1b07bd643: Added replica on this server.
+2017-07-11T14:28:05.148026000 32980.164895s info: Table 29305c93-14ee-42f0-9ea2-c890eda73a9b: Starting a new Raft election for term 1.
+2017-07-11T14:28:05.148179000 32980.165048s info: Table 29305c93-14ee-42f0-9ea2-c890eda73a9b: Added replica on this server.
+2017-07-11T14:28:05.171806000 32980.188675s info: Table 7ad98105-ef2d-49d7-8a99-3ad1b07bd643: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-11T14:28:05.171855000 32980.188724s info: Table 29305c93-14ee-42f0-9ea2-c890eda73a9b: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-11T14:56:23.586310000 34678.547552s notice: Removing file /Users/ananeto/exercises/koa_testing/rethinkdb_data/29305c93-14ee-42f0-9ea2-c890eda73a9b
+2017-07-11T14:56:23.586318000 34678.547560s info: Table 29305c93-14ee-42f0-9ea2-c890eda73a9b: Deleted the table.
+2017-07-11T14:56:35.082861000 34690.043709s info: Table 6f9633b4-1376-484a-9f0b-6bc7418ac00d: Starting a new Raft election for term 1.
+2017-07-11T14:56:35.083152000 34690.044001s info: Table 6f9633b4-1376-484a-9f0b-6bc7418ac00d: Added replica on this server.
+2017-07-11T14:56:35.103283000 34690.064132s info: Table 6f9633b4-1376-484a-9f0b-6bc7418ac00d: This server is Raft leader for term 1. Latest log index is 0.
