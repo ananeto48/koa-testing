@@ -10,16 +10,8 @@ const router = new Router()
 
 app.use(bodyParser())
 app.use(login)
-// app.use(ctx => {
-//     let userRole = ctx.cookies.get("SID")
-//     console.log(userRole)
-
-//   if(userRole === "admin"){
-//       return
-//   }
-//   return 
-// })
 app.use(routes)
+
 app.listen(3000)
 console.log('listening on port 3000')
 
